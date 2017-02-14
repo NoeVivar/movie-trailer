@@ -4,6 +4,7 @@
 $primary-color: gold;
 $secondary-color: dodgerblue;
 $tertiary-color:azure;
+$quarternary-color:#f00a0a;
 
 
 // Typography
@@ -23,10 +24,10 @@ h1,aside, article, footer{
 }
 
 a {  
-    background: -webkit-linear-gradient(#f0ffff,#f00a0a);  
-    background: -moz-linear-gradient(#f0ffff,#f00a0a);  
-    background: -o-linear-gradient(#f0ffff,#f00a0a);  
-    background: linear-gradient(#f0ffff,#f00a0a);  
+    background: -webkit-linear-gradient(#f00a0a,#f0ffff);  
+    background: -moz-linear-gradient(#f00a0a,#f0ffff);  
+    background: -o-linear-gradient(#f00a0a,#f0ffff);  
+    background: linear-gradient(#f00a0a,#f0ffff);  
   
     -webkit-transition: background .5s ease-out;  
     -moz-transition: background .5s ease-out;  
@@ -43,7 +44,7 @@ a {
 
 a:link{
 color: $primary-color;
-    text-decoration: none;
+    text-decoration: underline;
     
 }
 a:visited{
