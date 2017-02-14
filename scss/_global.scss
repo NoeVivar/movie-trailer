@@ -22,12 +22,20 @@ body{
 h1,aside, article, footer{
     color: $primary-color;
 }
+#pikachu-stance{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#pikachu-stance:hover{
+    transform: scale(1.2);
+}
 
 a {  
-    background: -webkit-linear-gradient(#f00a0a,#f0ffff);  
-    background: -moz-linear-gradient(#f00a0a,#f0ffff);  
-    background: -o-linear-gradient(#f00a0a,#f0ffff);  
-    background: linear-gradient(#f00a0a,#f0ffff);  
+    background: -webkit-linear-gradient(#f00a0a, #f0ffff);  
+    background: -moz-linear-gradient(#f00a0a, #f0ffff);  
+    background: -o-linear-gradient(#f00a0a, #f0ffff);  
+    background: linear-gradient(#f00a0a, #f0ffff);  
   
     -webkit-transition: background .5s ease-out;  
     -moz-transition: background .5s ease-out;  
@@ -44,7 +52,7 @@ a {
 
 a:link{
 color: $primary-color;
-    text-decoration: underline;
+    text-decoration: none;
     
 }
 a:visited{
