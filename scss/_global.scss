@@ -16,9 +16,11 @@ body{
     background: $secondary-color;
 }
 
-h1{
+h1,aside, article{
     color: $primary-color;
 }
-nav a {
+a:link{
+color: $primary-color;
+    text-decoration: none;
     
 }
