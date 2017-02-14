@@ -3,6 +3,8 @@
 // Color Palette
 $primary-color: gold;
 $secondary-color: dodgerblue;
+$tertiary-color:azure;
+
 
 // Typography
 
@@ -16,11 +18,37 @@ body{
     background: $secondary-color;
 }
 
-h1,aside, article{
+h1,aside, article, footer{
     color: $primary-color;
 }
+
+a {  
+    background: -webkit-linear-gradient(#f0ffff,#f00a0a);  
+    background: -moz-linear-gradient(#f0ffff,#f00a0a);  
+    background: -o-linear-gradient(#f0ffff,#f00a0a);  
+    background: linear-gradient(#f0ffff,#f00a0a);  
+  
+    -webkit-transition: background .5s ease-out;  
+    -moz-transition: background .5s ease-out;  
+    -o-transition: background .5s ease-out;  
+    transition: background .5s ease-out;  
+  
+    background-size:1px 200px;  
+    border-radius: 10px;  
+    border: 1px solid #839DB0;  
+    cursor:pointer;  
+    width: 150px;  
+    height: 100px;  
+}
+
 a:link{
 color: $primary-color;
     text-decoration: none;
     
+}
+a:visited{
+    color: $tertiary-color;
+}
+a:hover{
+    background-position:100px;
 }
