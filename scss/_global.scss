@@ -2,7 +2,7 @@
 
 // Color Palette
 $primary-color: gold;
-$secondary-color: purple;
+$secondary-color: dodgerblue;
 
 // Typography
 
@@ -13,5 +13,12 @@ video {
 }
 
 body{
-    background: $primary-color;
+    background: $secondary-color;
+}
+
+h1{
+    color: $primary-color;
+}
+nav a {
+    
 }
