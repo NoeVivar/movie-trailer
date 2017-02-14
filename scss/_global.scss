@@ -1,9 +1,24 @@
-$primary-color: gold;
-$secondary-color: purple;
+$font-stack: Arial, serif;
+$primary-color: dodgerblue;
+$secondary-color: yellow;
+$tertiary-color: violet;
 
 video{
     display: block;
     max-width: 100%;
     width: 100%;
+}
+
+body {
+    background-color: $primary-color;
+}
+aside{
+    display: inline;
+}
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
 }
 
