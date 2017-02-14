@@ -1,24 +1,17 @@
-$font-stack: Arial, serif;
-$primary-color: dodgerblue;
-$secondary-color: yellow;
-$tertiary-color: violet;
+// Global Stylesheet
 
-video{
-    display: block;
+// Color Palette
+$primary-color: gold;
+$secondary-color: purple;
+
+// Typography
+
+// Video Player Styling
+video {
     max-width: 100%;
     width: 100%;
 }
 
-body {
-    background-color: $primary-color;
+body{
+    background: $primary-color;
 }
-aside{
-    display: inline;
-}
-
-nav a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
-}
-
