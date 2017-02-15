@@ -19,25 +19,36 @@ video {
 body{
     background-color: $secondary-color;
     background-image: url(/img/pikasilhouette.png);
-    background-repeat: repeat;
+    background-repeat: space;
 }
 
 h3{
     border: 3px solid $quarternary-color;
 }
 
+
+
 h1,aside, article, footer{
     color: $primary-color;
 }
 .pokemon {
+    width: 8%;
+    height: 50%;
+    margin: 10px;
+    
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     border: 3px dotted $primary-color;
 }
+#spinning{
+    height: 50%;
+    width: 100%;
+}
 #pika-stance:hover{
     transform: scale(1.2);
 }
+
 
 a {  
     background: -webkit-linear-gradient(#f00a0a, #f0ffff);  
