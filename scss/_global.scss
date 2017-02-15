@@ -13,21 +13,29 @@ $quarternary-color:#f00a0a;
 video {
     max-width: 100%;
     width: 100%;
+    border: 5px solid $quarternary-color;
 }
 
 body{
-    background: $secondary-color;
+    background-color: $secondary-color;
+    background-image: url(/img/pikasilhouette.png);
+    background-repeat: repeat;
+}
+
+h3{
+    border: 3px solid $quarternary-color;
 }
 
 h1,aside, article, footer{
     color: $primary-color;
 }
-#pikachu-stance{
+.pokemon {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    border: 3px dotted $primary-color;
 }
-#pikachu-stance:hover{
+#pika-stance:hover{
     transform: scale(1.2);
 }
 
